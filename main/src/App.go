@@ -55,8 +55,8 @@ func body(){
   mapaArr := map[int][]string{1:{"s"}}
 
   fmt.Println(mapaArr)
-  file,_ := os.Create("te.txt")
-  file.Name()
+  //file,_ := os.Create("te.txt")
+  //file.Name()
 }
 func check(e error) {
   if e != nil {
